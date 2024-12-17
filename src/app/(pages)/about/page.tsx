@@ -25,16 +25,7 @@ const About = () => {
          <button className='bt2'><FaInstagram className='icon1'/></button>
          <button className='bt2'><FaYoutube className='icon2'/></button>
        </div>
-       <Skills/>
-    </div>
-  )
-}
-
-export default About
-
-export const Skills = () => {
-    return(
-        <div className='skill'>
+       <div className='skill'>
             <div>
                 <h1 className='heading'>My Skills</h1>
                 <div>
@@ -63,5 +54,9 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-    )
+    </div>
+  )
 }
+
+export default About
+
